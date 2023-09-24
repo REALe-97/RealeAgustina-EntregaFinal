@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque&family=Kenia&family=Quicksand:wght@300;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+p {
+  font-family: "Quicksand", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.navbar {
+  background-color: red;
+  height: 80px;
+  padding: 5px 10px 10px;
+  margin-bottom: 15px;
+}
+
+.navbar-brand {
+  font-family: "Kenia", cursive;
+  font-size: 50px;
+}
+
+.navbar-collapse {
+  background-color: red;
+  padding: 5px;
+}
+
+.navbar-nav ul {
+  padding: 5;
+}
+.navbar-nav ul li {
+  color: white;
+}
+
+header {
+  height: 200px;
+  border: 5px;
+  border-radius: 10px;
+  border-color: darkred;
+}
+
+.carousel-caption {
+  background-color: yellow;
+  border-radius: 10px;
+}
+.carousel-caption h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
+}
+
+.artistas {
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 15px;
+  border-color: darkred;
+  border-radius: 30px;
+}
+.card h5 {
+  font-family: "Bricolage Grotesque", sans-serif;
+  color: white;
+  background-color: darkred;
+  padding: 5px;
+}
+.card p {
+  text-align: center;
+}
+.card a {
+  background-color: red;
+  padding: 10px;
+  border-radius: 20px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.card img {
+  border-radius: 20px;
+}
+
+.presentacion {
+  background-image: url(./images/artistabackround-15.png);
+  background-attachment: fixed;
+  background-size: 100vw;
+}
+.presentacion h1 {
+  color: white;
+}
+.presentacion p {
+  color: white;
+}
+
+.galeriageneral {
+  height: 600px;
+  margin: 15px 0 0 0;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+
+.itema {
+  margin: 3px;
+  padding: 3px;
+  border-radius: 20px;
+}
+.itema img {
+  margin: 10px;
+  display: flex;
+  height: auto;
+  width: 30px;
+  align-self: self-end;
+}
+
+.itema1 {
+  /* grid-area: item1; */
+  grid-column: 1/4;
+  grid-row: 1/2;
+  background-image: url(./images/trabajos_tatuador1-01.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema2 {
+  /* grid-area: item2; */
+  grid-column: 1/4;
+  grid-row: 2/3;
+  background-image: url(./images/trabajos_tatuador1-02.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema3 {
+  /* grid-area: item3; */
+  grid-column: 1/4;
+  grid-row: 3/4;
+  background-image: url(./images/trabajos_tatuador1-03.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema4 {
+  /* grid-area: item4; */
+  grid-column: 4/5;
+  grid-row: 1/4;
+  background-image: url(./images/trabajos_tatuador1-04.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema5 {
+  /* grid-area: item5; */
+  grid-column: 5/7;
+  grid-row: 1/2;
+  background-image: url(./images/trabajos_tatuador1-05.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema6 {
+  /* grid-area: item6; */
+  grid-column: 5/7;
+  grid-row: 2/4;
+  background-image: url(./images/trabajos_tatuador1-06.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema7 {
+  /* grid-area: item1; */
+  grid-column: 5/7;
+  grid-row: 1/2;
+  background-image: url(./images/trabajos_tatuador1-07.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema8 {
+  /* grid-area: item2; */
+  grid-column: 4/7;
+  grid-row: 2/3;
+  background-image: url(./images/trabajos_tatuador1-08.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema9 {
+  /* grid-area: item3; */
+  grid-column: 4/7;
+  grid-row: 3/4;
+  background-image: url(./images/trabajos_tatuador1-09.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema10 {
+  /* grid-area: item4; */
+  grid-column: 4/5;
+  grid-row: 1/4;
+  background-image: url(./images/trabajos_tatuador1-10.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema11 {
+  /* grid-area: item5; */
+  grid-column: 5/7;
+  grid-row: 1/2;
+  background-image: url(./images/trabajos_tatuador1-11.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.itema12 {
+  /* grid-area: item6; */
+  grid-column: 5/7;
+  grid-row: 2/4;
+  background-image: url(./images/trabajos_tatuador1-12.png);
+  background-position: center;
+  background-size: cover;
+}
+
+/* responsive coding - home - 2 medidas max500px max1000px */
+@media screen and (max-width: 1000px) {
+  .galeriageneral {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+  }
+  .itema1 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .itema2 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .itema3 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .itema4 {
+    grid-column: 1/2;
+    grid-row: 4/7;
+  }
+  .itema5 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+  .itema6 {
+    grid-column: 2/4;
+    grid-row: 5/7;
+  }
+  .itema7 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+  .itema8 {
+    grid-column: 1/4;
+    grid-row: 2/3;
+  }
+  .itema9 {
+    grid-column: 1/4;
+    grid-row: 3/4;
+  }
+  .itema10 {
+    grid-column: 1/2;
+    grid-row: 4/7;
+  }
+  .itema11 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+  .itema12 {
+    grid-column: 2/4;
+    grid-row: 5/7;
+  }
+}
+footer {
+  background-color: red;
+}
+footer a {
+  height: 30px;
+  width: auto;
+}
+footer p {
+  color: white;
+}
+
+/*# sourceMappingURL=estilos.css.map */
